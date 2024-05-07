@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /api/v1
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=shopapp;encrypt=true;trustServerCertificate=true;
+    username: sa
+    password: "123456789"
+
+jwt:
+  expiration: 2592000
+  secretKey: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
